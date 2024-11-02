@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            font-size: 20px;
+            color: black;
+            text-decoration: none;
+        }
+        .hezi1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+        .caidan1{
+            padding: 3px;
+        }
+        .caidan1>li{
+            list-style: none;
+            background-color: #a8a6a6;
+            margin:5px;
+            width: 100px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+
+        }
+        .hezi2,.hezi3,.hezi4{
+            position: absolute;
+            display: none;
+            left:775px;
+        }
+        .hezi2{top:35px;}
+        .hezi3{top:90px;}
+        .hezi4{top:145px;}
+        .caidan2,.caidan3,.caidan4{padding: 0px;}
+        .caidan2>li{
+            display: flex;
+            background-color: #adabab;
+            width: 80px;
+            height: 40px;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            margin:2px;
+            border-radius: 8px;
+            float: left;
+        }
+        .caidan3>li{
+            display: flex;
+            background-color: #adabab;
+            width: 80px;
+            height: 40px;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            margin:2px;
+            border-radius: 8px;
+            float: left;
+        }
+        .caidan4>li{
+            display: flex;
+            background-color: #adabab;
+            width: 80px;
+            height: 40px;
+            list-style: none;
+            justify-content: center;
+            align-items: center;
+            margin:3px;
+            border-radius: 8px;
+            float: left;
+        }
+        .caidan1>li:hover>.hezi2{
+            display:block;
+        }
+        .caidan1>li:hover>.hezi3{
+            display:block;
+        }
+        .caidan1>li:hover>.hezi4{
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class="hezi1">
+        <ul class="caidan1">
+            <li>
+                <a href="#">食品</a>
+                <div class="hezi2">
+                    <ul class="caidan2">
+                        <li><a href="#">果蔬</a></li>
+                        <li><a href="#">零食</a></li>
+                        <li><a href="#">养生</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">科技</a>
+                <div class="hezi3">
+                    <ul class="caidan3">
+                        <li><a href="#">数码</a></li>
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">电脑</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">图书</a>
+                <div class="hezi4">
+                    <ul class="caidan4">
+                        <li><a href="#">文学</a></li>
+                        <li><a href="#">教辅</a></li>
+                        <li><a href="#">艺术</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
